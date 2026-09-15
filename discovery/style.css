@@ -1,0 +1,118 @@
+.wow{
+    font-size: 30px;
+}
+.great{
+    font-size: 100px;
+    text-align: center;
+    color: violet;
+
+}
+a{
+    text-decoration: none;
+}
+.body1{
+    background-color: lightblue;
+}
+input{
+    height:30px;
+    width: 300px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: violet;
+    color: white;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(235, 195, 235);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid violet;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#universal{
+    background-color: lightblue;
+    border-radius: 10px;
+    display: grid;
+    align-self:center;
+    border: 3px solid violet;
+    width: 400px;
+    margin: 0 auto;
+}
+.body {
+    position: relative;
+}
+
+.body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("bruno.jpg") center/cover;
+    filter: blur(8px);
+    transform: scale(1.05);
+    z-index: -1;
+}
+.body2{
+background-image: url("img.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.nigga{
+    font-size: 100px;
+    color: violet;
+    text-align: center;
+}
+.gamma{
+    font-size: 30px;
+    color: indigo;
+    text-align: center;
+}
+.signin{
+   height: 40px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;  
+} 
+.signin:hover{
+     background-color: rgb(182, 238, 98);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid violet;
+
+}
+.signup{
+   height: 40px;
+    width: 100px;
+    background-color: violet;
+    color: white;
+    border-radius: 10px;  
+} 
+.signup:hover{
+     background-color: rgb(235, 195, 235);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid violet;
+
+}
+.myboyolivier{
+   text-align: end;
+}
